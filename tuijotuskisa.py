@@ -312,10 +312,6 @@ while sankari.rohkeus > 0:
 
     time.sleep(1)
 
- 
-
-    # Käydään tuijotuskisa peikkoa vastaan.
-
     voittaja = taistele(peikko, sankari)
 
     hurraa(voittaja)
