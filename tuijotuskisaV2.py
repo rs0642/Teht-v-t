@@ -77,7 +77,7 @@ class Vuorenpeikko(Peikko):
 
 class Luolapeikko(Peikko):
 
-    def __init__(rohkeus = 8, katseen_voima = 8):
+    def __init__(self, rohkeus = 8, katseen_voima = 8):
         super().__init__(katseen_voima, rohkeus)
 
     NIMITAVUT = ("Kana", "Possu", "Porkkana", "Sipuli", "Kananmuna", "IsoBritannia", "Barbababa", "Bazhhh", "Raghfueashfhb", "Rudzfhsfh")
